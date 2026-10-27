@@ -14,10 +14,10 @@ Download the latest disk image and drag Emsai to Applications:
 [Releases](https://github.com/emsai-org/emsai-releases/releases).
 
 Or with Homebrew, from the tap
-[emsai-org/homebrew-emsai](https://github.com/emsai-org/homebrew-emsai):
+[emsai-org/homebrew-tap](https://github.com/emsai-org/homebrew-tap):
 
 ```sh
-brew install emsai-org/emsai/emsai
+brew install emsai-org/tap/emsai
 ```
 
 Requires macOS 26 (Tahoe) or later. The first launch starts a 7-day trial:
