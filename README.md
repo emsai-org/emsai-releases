@@ -17,7 +17,9 @@ Or with Homebrew, from the tap
 [emsai-org/homebrew-tap](https://github.com/emsai-org/homebrew-tap):
 
 ```sh
-brew install emsai-org/tap/emsai
+brew trust emsai-org/tap     # Homebrew 7 loads nothing from a tap that isn't its own until you say so
+brew tap emsai-org/tap
+brew install --cask emsai
 ```
 
 Requires macOS 26 (Tahoe) or later. The first launch starts a 7-day trial:
